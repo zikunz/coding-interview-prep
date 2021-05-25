@@ -1,7 +1,6 @@
 # Time Complexity: O(N), where N represents number of elements in array
 # Space Complexity: O(1)
 
-
 def isValidSubsequence(array, sequence):
     seqIdx = 0
 
