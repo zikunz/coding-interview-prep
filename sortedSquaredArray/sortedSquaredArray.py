@@ -1,7 +1,6 @@
 # Time Complexity: O(N), where N represents number of elements in array
 # Space Complexity: O(N), where N represents number of elements in array
 
-
 def sortedSquaredArray(array):
     sortedSquaredArray = [0 for _ in array]
 
