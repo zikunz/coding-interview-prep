@@ -1,7 +1,6 @@
 # Time Complexity: O(N), where N represents number of elements in competitions / results
 # Space Complexity: O(K), where K represents number of teams
 
-
 def tournamentWinner(competitions, results):
     currBestTeam = competitions[0][0]
     teamNamePoints = {currBestTeam: 0}
