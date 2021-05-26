@@ -1,6 +1,5 @@
 # Time Complexity: O(NlogN), where N represents number of elements in coins
-# Space Complexity: O(1) if in place and O(N) if not in place
-
+# Space Complexity: O(1) if in-place sorting is used and O(N) if not-in-place sorting is used
 
 def nonConstructibleChange(coins):
     coins.sort()
