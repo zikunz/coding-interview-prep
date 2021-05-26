@@ -2,10 +2,9 @@ import java.util.*;
 
 class Program {
 
-    public String tournamentWinner(
-        ArrayList < ArrayList < String >> competitions, ArrayList < Integer > results) {
+    public String tournamentWinner(ArrayList <ArrayList<String>> competitions, ArrayList <Integer> results) {
 
-        Map < String, Integer > map = new HashMap < String, Integer > ();
+        Map <String, Integer> map = new HashMap <String, Integer>();
 
         for (int i = 0; i < competitions.size(); i++) {
             String teamName = "";
