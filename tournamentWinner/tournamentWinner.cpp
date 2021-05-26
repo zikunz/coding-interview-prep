@@ -24,8 +24,7 @@ string tournamentWinner(vector<vector<string>> competitions, vector<int> results
             (*it).second += 3;
         }
         else {
-            teamName_score.insert({ winningTeam,
-                3 });
+            teamName_score.insert({ winningTeam, 3});
         }
         if (teamName_score[winningTeam] > teamName_score[currentBestTeam]) {
             currentBestTeam = winningTeam;
