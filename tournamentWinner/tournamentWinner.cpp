@@ -4,12 +4,11 @@ using namespace std;
 typedef pair<string, int> si;
 #define homeTeamWon 1
 
-string tournamentWinner(vector<vector<string> > competitions, vector<int> results) {
+string tournamentWinner(vector<vector<string>> competitions, vector<int> results) {
 
     unordered_map<string, int> teamName_score;
     string currentBestTeam = "";
-    teamName_score.insert({ currentBestTeam,
-        0 });
+    teamName_score.insert({currentBestTeam, 0});
     int size = competitions.size();
     string winningTeam;
 
