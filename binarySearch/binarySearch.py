@@ -1,6 +1,5 @@
-# Time Comeplexity: O(logN), where N represents number of elements in array
+# Time Complexity: O(logN), where N represents number of elements in array
 # Space Complexity: O(1)
-
 
 def binarySearch(array, target):
     leftPtr = 0
