@@ -1,7 +1,6 @@
 # Time Complexity: O(N), where N represents number of elements in array
 # Space Complexity: O(1)
 
-
 def findThreeLargestNumbers(array):
     threeLargestNums = [None, None, None]
 
@@ -14,7 +13,6 @@ def findThreeLargestNumbers(array):
             shiftAndUpdate(threeLargestNums, num, 0)
 
     return threeLargestNums
-
 
 def shiftAndUpdate(array, num, idx):
     for i in range(idx + 1):
