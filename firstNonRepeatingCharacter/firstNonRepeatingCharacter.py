@@ -1,5 +1,6 @@
-# Time Complexity: O(N), where N represents the length of elements in string
-# Space Complexity: O(N), where N represents the length of elements in string
+# Time Complexity: O(N), where N represents the length of the input string
+# Space Complexity: O(1) as there are only 26 lower-case English letters resulting in the dictionary having no more than 26 keys
+
 def firstNonRepeatingCharacter(string):
     letters = {}
 
