@@ -1,5 +1,5 @@
 # Time Complexity: O(N), where N represents number of elements in array
-# Space Complexity: O(N)
+# Space Complexity: O(N), where N represents number of elements in array
 
 def twoNumberSum(array, targetSum):
     nums = set()
