@@ -1,5 +1,5 @@
-# Time Complexity: O(N), where N represents length of the input sting
-# Space Complexity: O(N), where N represents length of the input sting
+# Time Complexity: O(N), where N represents length of the input string
+# Space Complexity: O(N), where N represents length of the input string
 
 def runLengthEncoding(string):
     runLengthEncoding = []
