@@ -1,8 +1,8 @@
 # Time Complexity:
 # Worst Case: O(N^2), where N represents the length of the input array
 # Best Case: O(N), where N represents the length of the input array
-# Space Complexity: O(1)
 
+# Space Complexity: O(1)
 
 def bubbleSort(array):
     isSorted = False
