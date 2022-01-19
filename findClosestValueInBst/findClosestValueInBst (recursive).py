@@ -1,5 +1,5 @@
 # Time Complexity: O(N), where N represents number of nodes in the BST
-# Space Complexity: O(N), where N represents number of nodes in the BST (adding frames to the call stack due to recursive calls uses extra memory)
+# Space Complexity: O(N), where N represents number of nodes in the BST (adding frames to the call stack due to recursive calls using extra memory)
 
 def findClosestValueInBst(tree, target):
     return findClosestValueInBstHelper(tree, target, float('inf'))
