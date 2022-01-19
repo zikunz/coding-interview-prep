@@ -1,15 +1,17 @@
 # Time Complexity: O(N), where N represents number of elements in string
 # Space Complexity: O(N), where N represents number of elements in string
 
+numberOfLetters = 26
+
 def caesarCipherEncryptor(string, key):
     newLetters = []
-	
+
     for letter in string:
-        nLC = ord(letter) + key % 26
-        if nLC > 122:
-            nLC = nLC % 123 + 97
-        newLetter = chr(nLC)
-        letter = newLetter
-        newLetters.append(newLetter)
-	
-    return "".join(newLetters)
+        newLetterCode = ord(letter) + key % numberOfLetters
+
+        if newLetterCode <= ord('z'):
+            newLetters.append(chr(newLetterCode))
+        else:
+            newLetters.append(chr(newLetterCode % ord('z') + ord('a') - 1))
+
+    return ''.join(newLetters)
