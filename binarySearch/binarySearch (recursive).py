@@ -1,5 +1,5 @@
 # Time Complexity: O(logN), where N represents number of elements in array
-# Space Complexity: O(logN) (adding frames to the call stack due to recursive calls uses extra memory)
+# Space Complexity: O(logN) (adding frames to the call stack due to recursive calls using extra memory)
 
 def binarySearch(array, target):
     return binarySearchHelper(array, target, 0, len(array) - 1)
