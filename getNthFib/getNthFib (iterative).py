@@ -2,7 +2,6 @@
 # Space Complexity: O(1)
 
 def getNthFib(n):
-    fib = 0
     twoLatestNums = [0, 1]
     count = 2
 	
